@@ -66,6 +66,7 @@
     switch(type) {
       case 'hiragana': return 'ご';
       case 'katakana': return 'ゴ';
+      case 'romaji': return 'go';
       default: return '五';
     }
   };

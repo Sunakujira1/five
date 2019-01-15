@@ -51,6 +51,7 @@ assert.equal('cinque', five.italian(), 'A italian five should be cinque');
 assert.equal('五', five.japanese(), 'A japanese five should be 五');
 assert.equal('ご', five.japanese('hiragana'), 'A japanese five in hiragana should be ご');
 assert.equal('ゴ', five.japanese('katakana'), 'A japanese five in katakana should be ゴ');
+assert.equal('go', five.japanese('romaji'), 'A japanese five in romaji should be go');
 assert.equal('ಐದು', five.kannada(), 'A kannada five should be ಐದು');
 assert.equal('vagh', five.klingon(), 'A klingon five should be vagh');
 assert.equal('오', five.korean(), 'A korean five should be 오');
